@@ -104,7 +104,6 @@ open_sans_semibold:
       fonts/open_sans_semibold.css: {}
       //fonts.googleapis.com/css?family=Open+Sans:600: {}
 
-
 roboto:
   version: VERSION
   css:
