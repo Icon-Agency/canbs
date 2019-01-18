@@ -1,1 +1,1 @@
-# Icon Canberra Drupal 8 Bootstrap4 theme
+# A lightweight Drupal 8 theme based on Bootstrap 4
