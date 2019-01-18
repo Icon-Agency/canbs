@@ -1,0 +1,5 @@
+# Schema for the configuration files of the CanBS theme.
+
+canbs.settings:
+  type: theme_settings
+  label: 'CanBS settings'

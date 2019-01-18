@@ -1,0 +1,233 @@
+global-styling:
+  version: VERSION
+  js:
+    js/popper.min.js: {}
+    js/bootstrap.min.js: {}
+    js/global.js: {}
+  css:
+    component:
+      css/style.css: {}
+    theme:
+      css/print.css: { media: print }
+  dependencies:
+  - core/jquery
+  - core/drupal
+
+affix:
+  version: VERSION
+  js:
+    js/affix.js: {}
+  css:
+    # @TODO to migrate parent theme css as individual scss
+    component:
+      css/affix.css: {}
+
+book-navigation:
+  version: VERSION
+  css:
+    # @TODO to migrate parent theme css as individual scss
+    component:
+      css/book-navigation.css: {}
+
+breadcrumb:
+  version: VERSION
+  css:
+    component:
+      css/breadcrumb.css: {}
+
+dropbutton:
+  version: VERSION
+  css:
+    # @TODO to migrate parent theme css as individual scss
+    component:
+      css/dropbutton.component.css: {}
+      css/dropbutton.css: { weight: -10 }
+
+form:
+  version: VERSION
+  css:
+    # @TODO to migrate parent theme css as individual scss
+    component:
+      css/form.css: {}
+
+indented:
+  version: VERSION
+  css:
+    # @TODO to migrate parent theme css as individual scss
+    component:
+      css/indented.css: {}
+
+maintenance_page:
+  version: VERSION
+  css:
+    theme:
+      css/maintenance-page.css: {}
+  dependencies:
+    - system/maintenance
+    - canbs/global-styling
+
+node:
+  version: VERSION
+  css:
+    # @TODO to migrate parent theme css as individual scss
+    component:
+      css/node.css: { weight: -10 }
+
+sidebar-collapse:
+  version: VERSION
+  js:
+    js/sidebar-collapse.js: { external: true }
+  css:
+    # @TODO to migrate parent theme css as individual scss
+    component:
+      css/sidebar-collapse.css: {}
+
+tabs:
+  version: VERSION
+  css:
+    # @TODO to migrate parent theme css as individual scss
+    component:
+      css/tabs.css: {}
+
+verticaltabs:
+  version: VERSION
+  css:
+    # @TODO to migrate parent theme css as individual scss
+    component:
+      css/vertical-tabs.css: {}
+
+# Fonts
+open_sans_semibold:
+  version: VERSION
+  css:
+    component:
+      fonts/open_sans_semibold.css: {}
+      //fonts.googleapis.com/css?family=Open+Sans:600: {}
+
+
+roboto:
+  version: VERSION
+  css:
+    component:
+      fonts/roboto.css: {}
+      //fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:700: {}
+
+alegreya_roboto:
+  version: VERSION
+  css:
+    component:
+      fonts/alegreya_roboto.css: {}
+      //fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Alegreya:700: {}
+
+dancing_garamond:
+  version: VERSION
+  css:
+    component:
+      fonts/dancing_garamond.css: {}
+      //fonts.googleapis.com/css?family=Dancing+Script:700|EB+Garamond: {}
+
+amatic_josefin:
+  version: VERSION
+  css:
+    component:
+      fonts/amatic_josefin.css: {}
+      //fonts.googleapis.com/css?family=Josefin+Sans:700|Amatic+SC:700: {}
+
+oswald_droid:
+  version: VERSION
+  css:
+    component:
+      fonts/oswald_droid.css: {}
+      //fonts.googleapis.com/css?family=Oswald:700|Droid+Serif:400,700italic: {}
+
+playfair_alice:
+  version: VERSION
+  css:
+    component:
+      fonts/playfair_alice.css: {}
+      //fonts.googleapis.com/css?family=Alice|Playfair+Display:900: {}
+
+dosis_opensans:
+  version: VERSION
+  css:
+    component:
+      fonts/dosis_opensans.css: {}
+      //fonts.googleapis.com/css?family=Open+Sans|Dosis:400,800: {}
+
+lato_hotel:
+  version: VERSION
+  css:
+    component:
+      fonts/lato_hotel.css: {}
+      //fonts.googleapis.com/css?family=Lato:300|Grand+Hotel: {}
+
+medula_abel:
+  version: VERSION
+  css:
+    component:
+      fonts/medula_abel.css: {}
+      //fonts.googleapis.com/css?family=Abel|Medula+One: {}
+
+fjalla_cantarell:
+  version: VERSION
+  css:
+    component:
+      fonts/fjalla_cantarell.css: {}
+      //fonts.googleapis.com/css?family=Fjalla+One|Cantarell:400,400italic,700italic,700: {}
+
+coustard_leckerli:
+  version: VERSION
+  css:
+    component:
+      fonts/coustard_leckerli.css: {}
+      //fonts.googleapis.com/css?family=Leckerli+One|Coustard:900: {}
+
+philosopher_muli:
+  version: VERSION
+  css:
+    component:
+      fonts/philosopher_muli.css: {}
+      //fonts.googleapis.com/css?family=Philosopher|Muli:300: {}
+
+vollkorn_exo:
+  version: VERSION
+  css:
+    component:
+      fonts/vollkorn_exo.css: {}
+      //fonts.googleapis.com/css?family=Vollkorn:700italic,700|Exo:400,400italic: {}
+
+monserrat_lato:
+  version: VERSION
+  css:
+    component:
+      fonts/monserrat_lato.css: {}
+      //fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic: {}
+      //fonts.googleapis.com/css?family=Montserrat:400,700: {}
+
+# Colors
+
+messages_light:
+  version: VERSION
+  css:
+    component:
+      css/messages-light.css: {}
+
+messages_dark:
+  version: VERSION
+  css:
+    component:
+      css/messages-dark.css: {}
+
+# icons
+
+material_design_icons:
+  version: VERSION
+  css:
+    component:
+      //fonts.googleapis.com/icon?family=Material+Icons: {}
+
+fontawesome:
+  version: VERSION
+  css:
+    component:
+      //use.fontawesome.com/releases/v5.0.13/css/all.css: {}
