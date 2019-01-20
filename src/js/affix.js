@@ -8,7 +8,7 @@
 
   'use strict';
 
-  Drupal.behaviors.bootstrap_barrio_affix = {
+  Drupal.behaviors.canbs_affix = {
     attach: function (context, settings) {
       var toggleAffix = function(affixElement, scrollElement, wrapper) {
   

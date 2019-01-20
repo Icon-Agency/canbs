@@ -7,7 +7,7 @@
 
   'use strict';
 
-  Drupal.behaviors.bootstrap_barrio = {
+  Drupal.behaviors.canbs = {
     attach: function (context, settings) {
 
 	$(window).scroll(function() {
