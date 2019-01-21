@@ -18,14 +18,12 @@ affix:
   js:
     js/affix.js: {}
   css:
-    # @TODO to migrate parent theme css as individual scss
     component:
       css/affix.css: {}
 
 book-navigation:
   version: VERSION
   css:
-    # @TODO to migrate parent theme css as individual scss
     component:
       css/book-navigation.css: {}
 
@@ -38,7 +36,6 @@ breadcrumb:
 dropbutton:
   version: VERSION
   css:
-    # @TODO to migrate parent theme css as individual scss
     component:
       css/dropbutton.component.css: {}
       css/dropbutton.css: { weight: -10 }
@@ -46,14 +43,12 @@ dropbutton:
 form:
   version: VERSION
   css:
-    # @TODO to migrate parent theme css as individual scss
     component:
       css/form.css: {}
 
 indented:
   version: VERSION
   css:
-    # @TODO to migrate parent theme css as individual scss
     component:
       css/indented.css: {}
 
@@ -69,7 +64,6 @@ maintenance_page:
 node:
   version: VERSION
   css:
-    # @TODO to migrate parent theme css as individual scss
     component:
       css/node.css: { weight: -10 }
 
@@ -78,21 +72,18 @@ sidebar-collapse:
   js:
     js/sidebar-collapse.js: { external: true }
   css:
-    # @TODO to migrate parent theme css as individual scss
     component:
       css/sidebar-collapse.css: {}
 
 tabs:
   version: VERSION
   css:
-    # @TODO to migrate parent theme css as individual scss
     component:
       css/tabs.css: {}
 
 verticaltabs:
   version: VERSION
   css:
-    # @TODO to migrate parent theme css as individual scss
     component:
       css/vertical-tabs.css: {}
 
@@ -229,4 +220,4 @@ fontawesome:
   version: VERSION
   css:
     component:
-      fonts/fontawesome/css/fontawesome-all.min.css
+      fonts/fontawesome/css/fontawesome-all.min.css: {}
