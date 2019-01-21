@@ -229,4 +229,4 @@ fontawesome:
   version: VERSION
   css:
     component:
-      //use.fontawesome.com/releases/v5.0.13/css/all.css: {}
+      fonts/fontawesome/css/fontawesome-all.min.css
