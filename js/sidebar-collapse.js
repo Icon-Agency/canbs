@@ -1,1 +1,1 @@
-!function(o,a){"use strict";Drupal.behaviors.bootstrap_barrio_sidebar={attach:function(a,t){o("[data-toggle=offcanvas]").click(function(){o(".row-offcanvas").toggleClass("active")})}}}(jQuery);
+!function(t,a){"use strict";Drupal.behaviors.canbs_sidebar={attach:function(a,c){t("[data-toggle=offcanvas]").click(function(){t(".row-offcanvas").toggleClass("active")})}}}(jQuery);

@@ -17,20 +17,20 @@
     "postinstall": "find node_modules/ -name '*.info' -type f -delete"
   },
   "dependencies": {
-    "popper.js": "^1.14.6",
     "bootstrap": "^4.2.1",
+    "jquery": "^3.3.1",
     "jquery.mmenu": "^7.2.2",
-    "jquery": "^3.3.1"
+    "popper.js": "^1.14.6",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-clean": "^0.4.0",
     "gulp-clean-css": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.1",
-    "gulp-plumber": "^1.2.1",
-    "beeper": "^1.1.1",
     "gulp-util": "^3.0.8"
   }
 }

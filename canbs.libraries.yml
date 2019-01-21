@@ -3,6 +3,8 @@ global-styling:
   js:
     js/popper.min.js: {}
     js/bootstrap.min.js: {}
+    js/slick.min.js: {}
+    js/jquery.mmenu.all.js: {}
     js/global.js: {}
   css:
     component:

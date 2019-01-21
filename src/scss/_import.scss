@@ -1,10 +1,16 @@
 /* IMPORTS */
 
-//@import url(font-awesome.min.css);
-// variables
-@import "variables";
 //bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Other Scss vendors
+@import "../../node_modules/slick-carousel/slick/slick.scss";
+@import "../../node_modules/slick-carousel/slick/slick-theme.scss";
+
+@import "../../node_modules/jquery.mmenu/dist/jquery.mmenu.all.css";
+
+// variables
+@import "variables";
 // typography
 @import "typography";
 // components

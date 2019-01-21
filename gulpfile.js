@@ -1,12 +1,13 @@
 const dist_css_base = './css';
 const dist_js_base = './js';
 
-const src_move_css_files = ['./node_modules/jquery.mmenu/dist/jquery.mmenu.all.css'];
+//const src_move_css_files = ['./node_modules/jquery.mmenu/dist/jquery.mmenu.all.css'];
 
 const src_move_js_files = [
   './node_modules/bootstrap/dist/js/bootstrap.min.js',
   './node_modules/popper.js/dist/umd/popper.min.js',
-  './node_modules/jquery.mmenu/dist/jquery.mmenu.all.js'
+  './node_modules/jquery.mmenu/dist/jquery.mmenu.all.js',
+  './node_modules/slick-carousel/slick/slick.min.js'
 ];
 
 const gulp = require('gulp');
@@ -33,10 +34,10 @@ let onError = function (err) {
 gulp.task('styles', function () {
   gulp.src(dist_css_base + '/*', {read: false}).pipe(clean());
 
-  // Min CSS file Movement
-  gulp.src(src_move_css_files)
-      .pipe(plumber({errorHandler: onError}))
-      .pipe(gulp.dest(dist_css_base + '/'));
+  // // Min CSS file Movement
+  // gulp.src(src_move_css_files)
+  //     .pipe(plumber({errorHandler: onError}))
+  //     .pipe(gulp.dest(dist_css_base + '/'));
 
   /**
    * Match bootstrap upstream requirements.
