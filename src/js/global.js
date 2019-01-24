@@ -51,10 +51,10 @@
 
       $('#block-header-site-search-block .search-trigger').on('click', function () {
         $('#block-header-site-search-block .header-site-search-content-wrapper').addClass('open');
-        $("#block-header-site-search-block .header-search-form .form-item-search input").focus();
+        $("#block-header-site-search-block .header-search-form .form-item input").focus();
       });
 
-      $('#block-header-site-search-block .header-search-form .form-item-search input').blur(function () {
+      $('#block-header-site-search-block .header-search-form .form-item input').blur(function () {
         $('#block-header-site-search-block .header-site-search-content-wrapper').removeClass('open');
       });
 
