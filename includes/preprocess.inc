@@ -249,7 +249,7 @@ function canbs_preprocess_page(&$variables) {
         'home_page',
         'pavilion_landing_page',]
       ) ){
-    $variables['container'] = NULL;
+    $variables['container'] = 'container-no-wrap';
   }
 
 }
