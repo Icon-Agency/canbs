@@ -175,8 +175,12 @@
         <div class="{{ container }}">
           {% if page.footer_first or page.footer_second or page.footer_third or page.footer_fourth %}
             <div class="site-footer__top clearfix">
-              {{ page.footer_first }}
-              {{ page.footer_second }}
+              <div class="container footer-st-nd-outer-container">
+                <div class="row footer-st-nd-inner-container">
+                  {{ page.footer_first }}
+                  {{ page.footer_second }}
+                </div>
+              </div>
               {{ page.footer_third }}
               {{ page.footer_fourth }}
             </div>
