@@ -59,6 +59,10 @@
  * @see template_preprocess_node()
  */
 #}
+
+{# development #}
+{# kint(content) #}
+
 {{ attach_library('canbs/node') }}
 
 {%
@@ -93,7 +97,44 @@
       </div>
     {% endif %}
   </header>
-  <div{{ content_attributes.addClass('node__content', 'clearfix') }}>
-    {{ content }}
+  <div{{ content_attributes.addClass('node__content', 'clearfix', 'landing-page') }}>
+
+    {% if content['field_top_banner_slider'][0] %}
+      <div class='top-slider'>
+        {{ content['field_top_banner_slider'] }}
+      </div>
+    {% endif %}
+
+    {% if content['field_latest_3_news'][0] %}
+      <div class='latest-3-news container'>
+        {{ content['field_latest_3_news'] }}
+      </div>
+    {% endif %}
+
+    {% if content['field_pinned_sliders'][0] %}
+      <div class='pinned-3-sliders'>
+        {{ content['field_pinned_sliders'] }}
+      </div>
+    {% endif %}
+
+    <div class="gallery-in-between">
+
+      <div class="upper-container">
+        {% if content['field_top_5_major_partners'][0] %}
+          <div class='pinned-3-sliders'>
+            {{ content['field_top_5_major_partners'] }}
+          </div>
+        {% endif %}
+      </div>
+
+      <div class="gallery-in-middle">
+
+      </div>
+
+      <div class="lower-container">
+
+      </div>
+
+    </div>
   </div>
 </article>

@@ -242,6 +242,16 @@ function canbs_preprocess_page(&$variables) {
   $variables['container_navbar'] = theme_get_setting('canbs_navbar_container');
   $variables['container'] = theme_get_setting('canbs_fluid_container') ? 'container-fluid' : 'container';
 
+  // Set no container for landing pages
+  if (isset($variables['node'])
+      && in_array($variables['node']->getType(),
+      [
+        'home_page',
+        'pavilion_landing_page',]
+      ) ){
+    $variables['container'] = NULL;
+  }
+
 }
 
 /**
