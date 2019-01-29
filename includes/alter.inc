@@ -80,6 +80,30 @@ function canbs_theme_suggestions_input_alter(array &$suggestions, array $variabl
     $suggestions[] = 'input__submit_button';
   }
 }
+/**
+ * Implements hook_theme_suggestions_HOOK_alter().
+ */
+function canbs_theme_suggestions_block_alter(&$suggestions, $variables) {
+  // Add block bundle theme suggestion
+  $elements = $variables['elements'];
+
+  if (isset($elements['content']['#block_content'])) {
+    $bundle = $elements['content']['#block_content']->bundle();
+
+    $new_suggestions = [];
+    $flag_inserted = FALSE;
+
+    foreach ($suggestions as $suggestion){
+      $new_suggestions[] = $suggestion;
+      if ($suggestion == 'block__block_content' && !$flag_inserted){
+        $new_suggestions[] = "block__block_content__{$bundle}";
+        $flag_inserted = TRUE;
+      }
+    }
+
+    $suggestions = $new_suggestions;
+  }
+}
 
 /**
  * Implements hook_form_alter() to add classes to the search form.
