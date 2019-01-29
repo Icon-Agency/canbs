@@ -322,6 +322,11 @@ function canbs_preprocess_block(&$variables) {
   if ($variables['plugin_id'] == 'system_branding_block') {
     $variables['attributes']['class'][] = 'clearfix';
   }
+
+  if (isset($variables['content']['#block_content'])) {
+    $bundle = $variables['content']['#block_content']->bundle();
+    $variables['attributes']['class'][] = 'block-block-content-' . str_replace('_', '-', $bundle);
+  }
 }
 
 function canbs_preprocess_form_element(&$variables) {
