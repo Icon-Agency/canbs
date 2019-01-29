@@ -489,3 +489,11 @@ function canbs_preprocess_paragraph(&$variables) {
 }
 
 /*********************************Internal called functions ****************************************/
+
+
+/**
+ * Called by canbs_preprocess_paragraph()
+ */
+//function _canbs_preprocess_paragraph__top_slider_banner__default(&$variables){
+//
+//}
