@@ -554,6 +554,7 @@ function canbs_form_system_theme_settings_alter(&$form, FormStateInterface $form
     '#default_value' => theme_get_setting('canbs_google_fonts'),
     '#empty_option' => t('None'),
     '#options' => array(
+        'work_sans' => 'Work Sans',
       'open_sans_semibold' => 'Open Sans Semibold',
       'roboto' => 'Roboto Condensed, Roboto',
       'monserrat_lato' => 'Monserrat, Lato',

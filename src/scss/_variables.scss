@@ -1,12 +1,16 @@
 /* VARIABLES */
 
 // colors
+$menu-gray: #505459;
 $primary-shade: #A8CF45;
 $primary-light: lighten($primary-shade, 37%);
 $primary-dark: darken($primary-shade, 12%);
 $accent-shade: #0079C0;
 $accent-light: lighten($accent-shade, 37%);
 $accent-dark: darken($accent-shade, 12%);
+$dark-blue: #0E0E8B;
+$border-gray: #D5D5D1;
+
 // Reassign color vars to semantic color scheme
 $red: #dc3545;
 $yellow: #ffc107;
@@ -40,4 +44,4 @@ $comment-spacer-x: 1.25em;
 $comment-spacer-y: 1.25em;
 
 
-$font-family-base: 'Open Sans', sans-serif;
+$font-family-base: 'Work Sans Semibold', sans-serif;

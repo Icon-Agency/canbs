@@ -1,5 +1,6 @@
 .header {
   .navbar {
+    background-color: white !important;
     display: block;
   }
   .header-main-menu {
@@ -11,7 +12,7 @@
         a {
           font-size: 20px;
           font-weight: 700;
-          color: $gray-800;
+          color: $menu-gray;
         }
       }
     }
@@ -21,14 +22,14 @@
       z-index: 2;
       height: 48px;
       width: 48px;
-      background-color: $gray-100;
+      background-color: white;
       margin: 6px 0;
       position: relative;
       &.open{
         .input-wrap{
           width: 800px;
           transition-delay: 0.25s;
-          background-color: white;
+          background-color: $gray-100;
           margin: 1.2rem 4rem;
         }
 
@@ -38,8 +39,8 @@
           svg{
             g{
               transition-delay: 0.2s;
-              fill: $accent-shade;
-              border: 1px solid $gray-800;
+              fill: $dark-blue;
+              border: 1px solid $border-gray;
             }
           }
         }
@@ -77,19 +78,19 @@
         margin: 1.2rem 4rem;
         svg{
           g{
-            fill: $accent-shade;
+            fill: $dark-blue;
           }
         }
       }
 
       .search-trigger{
         transition: all 0.3s ease 0.48s;
-        background-color: $gray-100;
-        border: 1px solid $gray-800;
+        background-color: white;
+        border: 1px solid $border-gray;
         margin: 1.2rem 4rem;
         svg{
           g{
-            fill: $accent-shade;
+            fill: $dark-blue;
           }
         }
       }

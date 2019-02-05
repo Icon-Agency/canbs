@@ -90,6 +90,13 @@ verticaltabs:
       css/vertical-tabs.css: {}
 
 # Fonts
+work_sans:
+  version: VERSION
+  css:
+    component:
+      fonts/work_sans.css: {}
+      //fonts.googleapis.com/css?family=Work+Sans:600: {}
+
 open_sans_semibold:
   version: VERSION
   css:
