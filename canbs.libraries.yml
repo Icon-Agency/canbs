@@ -95,113 +95,14 @@ work_sans:
   css:
     component:
       fonts/work_sans.css: {}
-      //fonts.googleapis.com/css?family=Work+Sans:600: {}
+      //fonts.googleapis.com/css?family=Work+Sans:400,600: {}
 
-open_sans_semibold:
+rubik:
   version: VERSION
   css:
     component:
-      fonts/open_sans_semibold.css: {}
-      //fonts.googleapis.com/css?family=Open+Sans:600: {}
-
-roboto:
-  version: VERSION
-  css:
-    component:
-      fonts/roboto.css: {}
-      //fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:700: {}
-
-alegreya_roboto:
-  version: VERSION
-  css:
-    component:
-      fonts/alegreya_roboto.css: {}
-      //fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Alegreya:700: {}
-
-dancing_garamond:
-  version: VERSION
-  css:
-    component:
-      fonts/dancing_garamond.css: {}
-      //fonts.googleapis.com/css?family=Dancing+Script:700|EB+Garamond: {}
-
-amatic_josefin:
-  version: VERSION
-  css:
-    component:
-      fonts/amatic_josefin.css: {}
-      //fonts.googleapis.com/css?family=Josefin+Sans:700|Amatic+SC:700: {}
-
-oswald_droid:
-  version: VERSION
-  css:
-    component:
-      fonts/oswald_droid.css: {}
-      //fonts.googleapis.com/css?family=Oswald:700|Droid+Serif:400,700italic: {}
-
-playfair_alice:
-  version: VERSION
-  css:
-    component:
-      fonts/playfair_alice.css: {}
-      //fonts.googleapis.com/css?family=Alice|Playfair+Display:900: {}
-
-dosis_opensans:
-  version: VERSION
-  css:
-    component:
-      fonts/dosis_opensans.css: {}
-      //fonts.googleapis.com/css?family=Open+Sans|Dosis:400,800: {}
-
-lato_hotel:
-  version: VERSION
-  css:
-    component:
-      fonts/lato_hotel.css: {}
-      //fonts.googleapis.com/css?family=Lato:300|Grand+Hotel: {}
-
-medula_abel:
-  version: VERSION
-  css:
-    component:
-      fonts/medula_abel.css: {}
-      //fonts.googleapis.com/css?family=Abel|Medula+One: {}
-
-fjalla_cantarell:
-  version: VERSION
-  css:
-    component:
-      fonts/fjalla_cantarell.css: {}
-      //fonts.googleapis.com/css?family=Fjalla+One|Cantarell:400,400italic,700italic,700: {}
-
-coustard_leckerli:
-  version: VERSION
-  css:
-    component:
-      fonts/coustard_leckerli.css: {}
-      //fonts.googleapis.com/css?family=Leckerli+One|Coustard:900: {}
-
-philosopher_muli:
-  version: VERSION
-  css:
-    component:
-      fonts/philosopher_muli.css: {}
-      //fonts.googleapis.com/css?family=Philosopher|Muli:300: {}
-
-vollkorn_exo:
-  version: VERSION
-  css:
-    component:
-      fonts/vollkorn_exo.css: {}
-      //fonts.googleapis.com/css?family=Vollkorn:700italic,700|Exo:400,400italic: {}
-
-monserrat_lato:
-  version: VERSION
-  css:
-    component:
-      fonts/monserrat_lato.css: {}
-      //fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic: {}
-      //fonts.googleapis.com/css?family=Montserrat:400,700: {}
+      fonts/rubik.css: {}
+      //fonts.googleapis.com/css?family=Rubik:400: {}
 
 # Colors
 
